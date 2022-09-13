@@ -18,6 +18,16 @@ The server must be executed as apache user.
 ```
 su - apache -s /bin/bash
 cd /usr/share/zfaker/public
+```
+
+On NS7:
+```
+source /opt/remi/php80/enable
+php -S localhost:8080
+```
+
+On another distro, if PHP 8 is already native:
+```
 php -S localhost:8080
 ```
 
