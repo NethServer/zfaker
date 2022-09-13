@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Call remote API
+params="$@"
+curl -H "Content-Type: application/json"  -d "{\"params\": \"$params\"}" "http://localhost:8080/z-push-admin"
