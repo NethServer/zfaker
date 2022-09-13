@@ -36,7 +36,7 @@ php -S localhost:8080
 To test on a NS7, use the scripts inside the `wrappers` directory:
 ```
 cp wrappers/php /usr/share/webtop/bin/php
-cp wrappers/z-push-admin-wapper /usr/share/webtop/bin/z-push-admin-wapper
+cp wrappers/z-push-admin-wrapper /usr/share/webtop/bin/z-push-admin-wrapper
 ```
 
 
